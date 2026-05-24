@@ -84,7 +84,7 @@ def load_data(url: str) -> pd.DataFrame:
     return df
 
 
-st.set_page_config(page_title="Step 2: Feedback dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Step 2: Feedback dashboard", page_icon="$$$", layout="wide")
 st.title("📊 Workshop feedback dashboard")
 st.caption("Step 2 — paste a public Google Sheet URL below. Data refreshes every 60 seconds.")
 
