@@ -167,5 +167,5 @@ with c5:
     else:
         st.info("No timestamp data to chart.")
 
-with st.expander("Show raw data"):
+with st.expander("Show REVERY data"):
     st.dataframe(filtered, width="stretch", hide_index=True)
